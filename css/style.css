@@ -274,29 +274,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
   display: flex;
-  flex-direction: column;
-  line-height: 1;
+  align-items: center;
 }
 
-.logo-main {
-  font-family: var(--font-heading);
-  font-weight: 900;
-  font-size: 1.8rem;
-  color: var(--text-white);
-  letter-spacing: 3px;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.logo-tagline {
-  font-size: 0.55rem;
-  font-weight: 600;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin-top: 2px;
+.logo-img {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-menu {
